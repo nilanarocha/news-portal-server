@@ -14,5 +14,6 @@ Rails.application.routes.draw do
   get '/api/news-category' => 'api_news#get_news_category'
   get '/api/search' => 'api_news#get_search'
 
+  get '/', to: redirect('/news')
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
