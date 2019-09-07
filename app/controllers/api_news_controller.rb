@@ -60,11 +60,12 @@ class ApiNewsController < ApplicationController
     # Checking if search was informed via search form
     # if informed, should add to the query
     # .blank? checking if the variable exist
-    unless @search.blank?
+    if !@search.blank?
       # Checking if we have authors for the search
       @authors = Author.where("LOWER(name) LIKE LOWER('%#{@search}%')")
                        .pluck(:id)
-
+      # Checking if we have news categories for the search
+      @news_categories = NewsCategory.where('LOWER(name)= ?', @search.downcase).pluck(:id)
       #  If we have authors, the search checks for all the news by author
       sql_authors_complement = if @authors.any?
                                  "OR authors_id IN (#{@authors.join(', ')})"
@@ -72,8 +73,8 @@ class ApiNewsController < ApplicationController
                                  ''
                                end
 
-      sql_news_category_complement = if @news_category.any?
-                                       "OR news_categories_id=#{NewsCategory.find_by('LOWER(name)= ?', @search.downcase).id}"
+      sql_news_category_complement = if @news_categories.any?
+                                       "OR news_categories_id IN (#{@news_categories.join(', ')})"
                                      else
                                        ''
                                     end
@@ -89,13 +90,16 @@ class ApiNewsController < ApplicationController
   )
   "
       )
-    end
 
     # Checking if news_category was informed via search form
     # if informed, should add to the query
-    if !@news_category.blank? && @news_category != 'all'
-      # seaching only for the specified property type
-      sql_complement.push("news_categories_id=#{NewsCategory.find_by('LOWER(name)= ?', @news_category.downcase).id}")
+    elsif !@news_category.blank? && @news_category != 'all'
+      # Checking if we have news categories for the search
+      @news_categories = NewsCategory.where('LOWER(name)= ?', @news_category.downcase).pluck(:id)
+      if @news_categories.any?
+        # seaching only for the specified property type
+        sql_complement.push("news_categories_id IN (#{@news_categories.join(', ')})")
+      end
     end
 
     # Search all properties with the search title
