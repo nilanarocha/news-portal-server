@@ -134,7 +134,7 @@ News.create(
 News.create(
   title: 'Kim Kardashian West got super drunk and leaked her own baby news',
   headline: 'The mom of four reveals in a newly released clip from "Keeping Up with the Kardashians" that she is the one who spilled the beans that she was expecting baby No. 4 via a surrogate.',
-  image: 'http://cdn.cnn.com/cnn/.e/interactive/2017/raqqa-messages/raqqa3-desktop.jpg',
+  image: 'https://static2.srcdn.com/wordpress/wp-content/uploads/2019/09/Kim-Kardashian-Keeping-Up-With-the-Kardashians-2.jpg?q=50&fit=crop&w=798&h=407&dpr=1.5',
   date: Date.new(2019, 9, 5),
   description: "The mom of four reveals in a newly released clip from \"Keeping Up with the Kardashians\" that she is the one who spilled the beans that she was expecting baby No. 4 via a surrogate.
   After having one too many drinks in December at her family's annual Christmas party, Kardashian says she accidentally told someone at the celebration about the impending new addition.
