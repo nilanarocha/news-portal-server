@@ -11,9 +11,9 @@ This project depends of [news-portal-client](https://github.com/nilanarocha/news
 
 ### Tech stack
 
-1. Ruby on Rails(Admin, back-end, API)
-2. PostgreSQl
-3. Heroku CLI
+1. [Ruby on Rails(Admin, back-end, API)](https://rubyonrails.org/)
+2. [PostgreSQl](https://www.postgresql.org/)
+3. [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 
 
 ## Setup (Back-end)
