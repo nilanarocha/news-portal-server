@@ -5,6 +5,10 @@ others.
 
 This repository has the admin area and API consumed for news portal client repository.
 
+## Running the project locally
+
+This project depends of [news-portal-client](https://github.com/nilanarocha/news-portal-client) to be running in your local environment. So you need to follow the described steps in [this link](https://github.com/nilanarocha/news-portal-client/blob/master/README.md) for run that locally.
+
 ### Tech stack
 
 1. Ruby on Rails(Admin, back-end, API)
