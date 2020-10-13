@@ -41,7 +41,7 @@ News.create(
   headline: 'By the end of her inglorious three-year stint in Downing Street, even her most loyal supporters admitted that the robotic May would never be regarded as one of the greatest British leaders.',
   image: 'https://cdn.cnn.com/cnnnext/dam/assets/190904125613-02-uk-parliament-0904-exlarge-169.jpg',
   date: Date.new(2019, 9, 5),
-  description: "London (CNN)Could someone be worse than Theresa May, the UK Prime Minister widely panned as 'the Maybot'? </p><p>By the end of her inglorious three-year stint in Downing Street, even her most loyal supporters admitted that the robotic May would never be regarded as one of the greatest British leaders. </p><p>By comparison, Boris Johnson's off-the-cuff, sunny disposition made him a darling of Conservative Party members who chose him for the top job when May finally resigned, defeated by her inability to get a Brexit deal through Parliament.
+  description: "<p>London (CNN)Could someone be worse than Theresa May, the UK Prime Minister widely panned as 'the Maybot'? </p><p>By the end of her inglorious three-year stint in Downing Street, even her most loyal supporters admitted that the robotic May would never be regarded as one of the greatest British leaders. </p><p>By comparison, Boris Johnson's off-the-cuff, sunny disposition made him a darling of Conservative Party members who chose him for the top job when May finally resigned, defeated by her inability to get a Brexit deal through Parliament.
   </p><p>On his first day as Prime Minister, Johnson promised a bold new Brexit deal, bashing the 'doubters, doomsters, gloomsters' and the political class who he said had forgotten about the British people they serve.
   </p><p>It was as if an upbeat attitude alone could be enough to overcome any adversity on the United Kingdom's path to exiting the European Union.
   </p><p>A legacy of failure: Theresa May was a disaster as Prime Minister A legacy of failure: Theresa May was a disaster as Prime Minister For a moment, it seemed he would breathe new life and, in his words, 'positive energy,' into the Brexit process.
@@ -69,7 +69,7 @@ News.create(
   </p><p>He then lurched into some lackluster remarks that had commentators cringing. Finally, in the heat, one of the cadets behind him sat down, apparently to avoid fainting.
   </p><p>Johnson turned to ask her if she was okay, promised to end the event, but carried on anyway. Journalists' questions were brutal.
   </p><p>'Aren't people entitled to ask, if your own brother can't back you, why should anyone else?' one asked. It is indeed an open question.
-  </p><p>Certainly, an election is a gamble. But it is a risk that Johnson and his advisers have taken in the hopes that, by turning the broad church coalition of the Conservative Party into a group of Euroskeptics, that it will reconfigure the Brexit alliance and prove enough to win a general election.</p><p>Boris Johnson makes a speech flanked by police cadets in West Yorkshire Thursday.</p><p>Boris Johnson makes a speech flanked by police cadets in West Yorkshire Thursday.</p><p>If Johnson is able to pull it off, his decision to kick out moderate Conservative members will have effectively set him up to have a far more consolidated, hard-line pro-Brexit party -- saving his skin and redefining the Tories all at once.</p><p>But, if his bumbling and, at times, awkward speech Thursday was any indication, he may have lost some of the winning luster that had previously seemed so promising.</p><p>His predecessor was endlessly slammed for her poor performances in speeches -- from her robotic dancing to losing her voice -- but she never lined up dozens of bemused police officers as a backdrop to a political stunt.</p><p>Yet, unlike May, Johnson was able to ram home the core political message that he intends to take the UK out of the EU 'no ifs or buts' by October 31 -- a stark contrast to her central failure to find consensus.</p><p>Asked if he could promise the British public that he would not go to Brussels and ask for another delay to Brexit, Johnson said: 'Yes I can.</p><>I'd rather be dead in a ditch.'",
+  </p><p>Certainly, an election is a gamble. But it is a risk that Johnson and his advisers have taken in the hopes that, by turning the broad church coalition of the Conservative Party into a group of Euroskeptics, that it will reconfigure the Brexit alliance and prove enough to win a general election.</p><p>Boris Johnson makes a speech flanked by police cadets in West Yorkshire Thursday.</p><p>Boris Johnson makes a speech flanked by police cadets in West Yorkshire Thursday.</p><p>If Johnson is able to pull it off, his decision to kick out moderate Conservative members will have effectively set him up to have a far more consolidated, hard-line pro-Brexit party -- saving his skin and redefining the Tories all at once.</p><p>But, if his bumbling and, at times, awkward speech Thursday was any indication, he may have lost some of the winning luster that had previously seemed so promising.</p><p>His predecessor was endlessly slammed for her poor performances in speeches -- from her robotic dancing to losing her voice -- but she never lined up dozens of bemused police officers as a backdrop to a political stunt.</p><p>Yet, unlike May, Johnson was able to ram home the core political message that he intends to take the UK out of the EU 'no ifs or buts' by October 31 -- a stark contrast to her central failure to find consensus.</p><p>Asked if he could promise the British public that he would not go to Brussels and ask for another delay to Brexit, Johnson said: 'Yes I can.</p><p>I'd rather be dead in a ditch.'</p>",
   authors_id: Author.find_by(name: 'Eliza Mackintosh').id,
   news_categories_id: NewsCategory.find_by(name: 'World').id
 )
@@ -79,7 +79,7 @@ News.create(
   headline: 'Much has changed since the height of the refugee crisis that gripped Europe in the summer of 2015. Since the shocking images of drowned Syrian toddler Alan Kurdi went viral, the crisis has largely been out of international headlines.',
   image: 'https://cdn.cnn.com/cnnnext/dam/assets/170817142019-02-mediterranean-crisis-reset-super-169.jpg',
   date: Date.new(2019, 9, 6),
-  description: "Much has changed since the height of the refugee crisis that gripped Europe in the summer of 2015. Since the shocking images of drowned Syrian toddler Alan Kurdi went viral, the crisis has largely been out of international headlines.</p>
+  description: "<p>Much has changed since the height of the refugee crisis that gripped Europe in the summer of 2015. Since the shocking images of drowned Syrian toddler Alan Kurdi went viral, the crisis has largely been out of international headlines.</p>
 
   <p>But it doesn't show any signs of stopping.
   Since 2015, Europe has scrambled to cope with the arrival of around 1.5 million people by sea.</p>
@@ -139,7 +139,7 @@ News.create(
   </p><p>Migrants watch sunrise from the Aquarius rescue ship after their transfer from the NGO Migrant Offshore Aid Station (MOAS) in August 2017.
   Migrants watch sunrise from the Aquarius rescue ship after their transfer from the NGO Migrant Offshore Aid Station (MOAS) in August 2017.
   </p><p>\"They were warned and told that they could be detained. We gave them a chance to leave and they did,\" Libyan navy spokesman Qassem told CNN. \"They have to respect our sovereignty. They consider themselves above the law and Libyan sovereignty.\"
-  </p><>According to Italian coast guard figures, nongovernmental groups were responsible for rescuing a quarter of all those saved in 2016, and a third of those pulled from the Mediterranean in the first three months of 2017.",
+  </p><p>According to Italian coast guard figures, nongovernmental groups were responsible for rescuing a quarter of all those saved in 2016, and a third of those pulled from the Mediterranean in the first three months of 2017.</p>",
   authors_id: Author.find_by(name: 'Eliza Mackintosh').id,
   news_categories_id: NewsCategory.find_by(name: 'World').id
 )
@@ -149,12 +149,12 @@ News.create(
   headline: 'After months living under ISIS\'s brutal rule in Raqqa, Maha finally managed to escape.',
   image: 'http://cdn.cnn.com/cnn/.e/interactive/2017/raqqa-messages/raqqa3-desktop.jpg',
   date: Date.new(2019, 9, 5),
-  description: "After months living under ISIS's brutal rule in Raqqa, Maha finally managed to escape.</p>
+  description: "<p>After months living under ISIS's brutal rule in Raqqa, Maha finally managed to escape.</p>
   <p>In August, as the besieged city was being pounded by a US-backed coalition, the 23-year-old Syrian widow fled with her two-year-old son Odai and elderly aunt.</p>
   <p>They joined hundreds of thousands of people who have been displaced since the operation to retake the city from ISIS began last year.</p>
   <p>Yet now, even after Kurdish forces declared victory in Raqqa, their future is far from certain as they move from camp to camp in the outskirts of the city.</p>
   <p>Maha's only lifeline to the outside world has been her mother Wafa, 40, who sought asylum in the Netherlands in 2014.</p>
-  <>Before she escaped Raqqa, CNN chronicled Maha's WhatsApp conversations with her mother. Now, we take up Maha's story as she attempts to make it to Turkey.",
+  <p>Before she escaped Raqqa, CNN chronicled Maha's WhatsApp conversations with her mother. Now, we take up Maha's story as she attempts to make it to Turkey.</p>",
   authors_id: Author.find_by(name: 'Eliza Mackintosh').id,
   news_categories_id: NewsCategory.find_by(name: 'World').id
 )
@@ -164,7 +164,7 @@ News.create(
   headline: 'The mom of four reveals in a newly released clip from "Keeping Up with the Kardashians" that she is the one who spilled the beans that she was expecting baby No. 4 via a surrogate.',
   image: 'https://cdn.cnn.com/cnnnext/dam/assets/180116115141-kim-kardashian-kanye-west-exlarge-169.jpg',
   date: Date.new(2019, 9, 5),
-  description: "The mom of four reveals in a newly released clip from \"Keeping Up with the Kardashians\" that she is the one who spilled the beans that she was expecting baby No. 4 via a surrogate.</p>
+  description: "<p>The mom of four reveals in a newly released clip from \"Keeping Up with the Kardashians\" that she is the one who spilled the beans that she was expecting baby No. 4 via a surrogate.</p>
   <p>After having one too many drinks in December at her family's annual Christmas party, Kardashian says she accidentally told someone at the celebration about the impending new addition.</p>
 
   <p>\"I got drunk on Christmas Eve, and I told someone at Christmas Eve, and I don't remember who I told because I was drunk,\" she said.
@@ -174,7 +174,7 @@ News.create(
   \"No, 'cause, I mean, it was my fault,\" she adds. \"That's why I don't drink.\"</p>
   <p>The reality star and beauty mogul wasn't upset about it though, telling Disick, \"I'm so excited.\"
   \"At first I was having such anxiety just because I'm gonna be a mom of four.\"
-  </p><>\"Look at your mom. She's got 19 kids,\" Disick jokes, wildly exaggerating the size of Kris Jenner's brood. \"She's not stressed.\"",
+  </p><p>\"Look at your mom. She's got 19 kids,\" Disick jokes, wildly exaggerating the size of Kris Jenner's brood. \"She's not stressed.\"</p>",
   authors_id: Author.find_by(name: 'Whitney Friedlande').id,
   news_categories_id: NewsCategory.find_by(name: 'Entertainment').id
 )
@@ -184,7 +184,7 @@ News.create(
   headline: "Actor and apparent Taylor Swift pen pal John Travolta wants you to know that he didn't accidentally mistake a drag queen for the real-life star while presenting at the MTV Video Music Awards on Monday. But he's cool if that's what you want to think.",
   image: 'https://cdn.cnn.com/cnnnext/dam/assets/190827093256-john-travolta-queen-latifah-vmas-exlarge-169.jpg',
   date: Date.new(2019, 9, 5),
-  description: "Actor and apparent Taylor Swift pen pal John Travolta wants you to know that he didn't accidentally mistake a drag queen for the real-life star while presenting at the MTV Video Music Awards on Monday. But he's cool if that's what you want to think.
+  description: "<p>Actor and apparent Taylor Swift pen pal John Travolta wants you to know that he didn't accidentally mistake a drag queen for the real-life star while presenting at the MTV Video Music Awards on Monday. But he's cool if that's what you want to think.
 
   </p><p>Travolta found himself in the center of yet another viral award show moment on Monday night when some viewers claimed the actor may have mistaken Taylor Swift impersonator Jade Jolie for the actual singer while on stage.
   </p><p>In a conversation with Dallas-area radio station Hot 93.3, \"The Fanatic\" star explained that wasn't the case.
@@ -193,7 +193,7 @@ News.create(
   \"There's so many people that bombarded the stage, that I was looking for [Swift]. So, the video has me looking, trying to find her,\" he said. \"But, you know, I thought it was so funny the way it was interpreted. And it's cool, I didn't care.\"
   </p><p>He added: \"I sometimes fantasize, 'What if I'd given it to her?' That would have been awesome. I should have just gone all the way with it, you know?\"
   </p><p>Travolta said he tries to have \"a sense of humor\" about his various headline-making actions, from his haircuts to that viral moment at the 2014 Oscars when he accidentally referred to Idina Menzel as \"Adele Dazeem.\"
-  </p><>\"We're in pretty good shape on the day, any given day, that that kind of thing could make headlines,\" he said. \"We're so used to this inundation of bad news that the idea that something so light and so insignificant as those items would do that means that, at least for today, there's no bad news.\"",
+  </p><p>\"We're in pretty good shape on the day, any given day, that that kind of thing could make headlines,\" he said. \"We're so used to this inundation of bad news that the idea that something so light and so insignificant as those items would do that means that, at least for today, there's no bad news.\"</p>",
   authors_id: Author.find_by(name: 'Whitney Friedlande').id,
   news_categories_id: NewsCategory.find_by(name: 'Entertainment').id
 )
